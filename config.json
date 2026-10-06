@@ -1,0 +1,25 @@
+{
+  "site_url": "https://telemed.com.co",
+  "base_path": "/blog",
+  "site_name": "Telemed",
+  "blog_title": {"en": "Telemed Blog — Healthcare BPO & Revenue Cycle Insights", "es": "Blog Telemed — BPO de salud y experiencia del paciente"},
+  "blog_description": {
+    "en": "Practical guides on prior authorizations, medical billing, patient scheduling and nearshore outsourcing for US medical practices.",
+    "es": "Guías prácticas sobre centrales de citas, servicio al cliente y tercerización de procesos en salud."
+  },
+  "logo": "https://telemed.com.co/us/img/Logo.png",
+  "og_image": "https://telemed.com.co/wp-content/uploads/2025/09/Telemed-logo.png",
+  "cta_url": {"en": "https://telemed.com.co/us/#contact", "es": "https://telemed.com.co/#"},
+  "services_url": {"en": "https://telemed.com.co/us/#services", "es": "https://telemed.com.co/"},
+  "authors": {
+    "rod": {
+      "name": "Rodrigo",
+      "role": {"en": "Founder & CEO, Telemed", "es": "Fundador y CEO, Telemed"},
+      "bio": {
+        "en": "Rodrigo founded Telemed and has spent 20+ years running healthcare BPO operations for US and Colombian providers — scheduling, billing, prior authorizations and patient communication.",
+        "es": "Rodrigo fundó Telemed y lleva más de 20 años dirigiendo operaciones de BPO en salud para prestadores de EE.UU. y Colombia."
+      },
+      "linkedin": "https://www.linkedin.com/company/telemed-bpo"
+    }
+  }
+}
