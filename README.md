@@ -17,7 +17,7 @@ Flujo semanal:
 1. **Lunes:** la tarea programada de Claude deja 3 borradores en inglés y 1 en español en `drafts/`.
 2. **Revisión:** abres cada borrador y le agregas un dato o una anécdota real. Revisas que no haya afirmaciones prohibidas (ver `_internal/brand-guide.md`).
 3. **Aprobar:** mueves el archivo de `drafts/en/` a `content/en/` (o de `drafts/es/` a `content/es/`) y cambias `status: draft` por `status: published`. También le puedes pedir a Claude: "publica los borradores de esta semana".
-4. **Publicar:** en GitHub Desktop → *Commit to main* → *Push origin*. En 1 a 2 minutos el artículo aparece en telemed.com.co/blog/.
+4. **Publicar:** en github.com/TeleMed2026gg/telemed-blog → *Add file → Create new file*, nombre `content/en/<slug>.md`, pegar el contenido y *Commit changes*. GitHub genera el sitio y lo sube por FTP a telemed.com.co/blog/ en 1 a 2 minutos.
 
 ## Vista previa local
 `python build.py --preview` genera `preview/`, que incluye también los borradores.
@@ -25,4 +25,4 @@ Flujo semanal:
 ## Reglas de calidad (resumen)
 - Máximo 3 artículos en inglés y 1 en español por semana. Más volumen genérico es riesgo de penalización de Google.
 - Cada cifra externa debe llevar su fuente enlazada.
-- No mencionar SOC 2 ni ISO 27001, no publicar precios, no inventar testimonios.
+- Seguir la guía editorial interna (no publicar precios, no inventar testimonios).
