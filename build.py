@@ -329,6 +329,9 @@ def main():
     (OUT / "assets").mkdir(parents=True, exist_ok=True)
     shutil.copy(ROOT / "assets" / "blog.css", OUT / "assets" / "blog.css")
     write(".htaccess", "Options -Indexes\nDirectoryIndex index.html\n")
+    # Archivos de verificación (Google Search Console / Bing): cualquier google*.html o BingSiteAuth.xml en la raíz del repo
+    for v in list(ROOT.glob("google*.html")) + list(ROOT.glob("BingSiteAuth.xml")):
+        shutil.copy(v, OUT / v.name)
     print(f"OK: {len(posts)} artículos -> {OUT.name}/  ({sum(1 for p in posts if p['draft'])} borradores)")
     for p in posts:
         print(f"  [{'draft' if p['draft'] else 'live '}] {p['lang']} {p['path']}  ({p['words']} palabras)")
